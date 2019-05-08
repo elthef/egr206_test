@@ -9,6 +9,7 @@ ss = crickit.seesaw
 # make a list of all the servos
 servos = (crickit.servo_1, crickit.servo_2, crickit.servo_3, crickit.servo_4)
 pot = crickit.SIGNAL3
+sense.clear()
 while True:
     
     x = randint(0, 7)
